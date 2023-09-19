@@ -1,0 +1,18 @@
+<!-- HEADER -->
+<lib-header [routerLink]="['/']"></lib-header>
+<!-- HEADER -->
+
+<!-- BREADCRUMB -->
+<lib-breadcrumb [routes]="breadcrumbRoutes"></lib-breadcrumb>
+<!-- BREADCRUMB -->
+
+<div class="container container--flex">
+  <!-- LAT MENU -->
+  <!-- <lib-lateral-menu></lib-lateral-menu> -->
+  <!-- LAT MENU -->
+  <!-- CONTENT -->
+  <div class="main-content">
+    <ng-content #name></ng-content>
+  </div>
+  <!-- CONTENT -->
+</div>

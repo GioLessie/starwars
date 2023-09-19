@@ -1,0 +1,10 @@
+.breadcrumb {
+  margin: 10px 0;
+  height: 40px;
+  &__list {
+    margin: 0;
+    span {
+      font-size: 16px;
+    }
+  }
+}
