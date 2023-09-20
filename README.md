@@ -1,10 +1,10 @@
-# starwars wiki
+# Starwars Wiki
 
-# Description
+## Description
 
 Frontend side for starwars wiki repo.
 
-# Table of contents
+## Table of contents
 
 This project features the following tools:
 
@@ -14,9 +14,9 @@ This project features the following tools:
 
 Additionally, it was used Angular Material to simplify the development of the local ui library
 
-# Installation and Hands On
+## Installation and Hands On
 
-1. Clone this repo using.
+1. Clone this repo.
 2. Run `npm i`.
 3. Run `ng build library` to build the local ui library.
 4. Run `ng serve` run the application .
