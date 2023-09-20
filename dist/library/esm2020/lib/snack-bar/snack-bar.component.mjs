@@ -1,0 +1,13 @@
+import { Component } from '@angular/core';
+import * as i0 from "@angular/core";
+import * as i1 from "@angular/material/button";
+import * as i2 from "@angular/material/snack-bar";
+export class SnackBarComponent {
+}
+SnackBarComponent.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "15.2.9", ngImport: i0, type: SnackBarComponent, deps: [], target: i0.ɵɵFactoryTarget.Component });
+SnackBarComponent.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "14.0.0", version: "15.2.9", type: SnackBarComponent, selector: "lib-snack-bar", ngImport: i0, template: "<span matSnackBarActions>\r\n  <button mat-button matSnackBarAction>Applied</button>\r\n</span>\r\n", styles: [""], dependencies: [{ kind: "component", type: i1.MatButton, selector: "    button[mat-button], button[mat-raised-button], button[mat-flat-button],    button[mat-stroked-button]  ", inputs: ["disabled", "disableRipple", "color"], exportAs: ["matButton"] }, { kind: "directive", type: i2.MatSnackBarActions, selector: "[matSnackBarActions]" }, { kind: "directive", type: i2.MatSnackBarAction, selector: "[matSnackBarAction]" }] });
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "15.2.9", ngImport: i0, type: SnackBarComponent, decorators: [{
+            type: Component,
+            args: [{ selector: 'lib-snack-bar', template: "<span matSnackBarActions>\r\n  <button mat-button matSnackBarAction>Applied</button>\r\n</span>\r\n" }]
+        }] });
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoic25hY2stYmFyLmNvbXBvbmVudC5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uLy4uL3Byb2plY3RzL2xpYnJhcnkvc3JjL2xpYi9zbmFjay1iYXIvc25hY2stYmFyLmNvbXBvbmVudC50cyIsIi4uLy4uLy4uLy4uLy4uL3Byb2plY3RzL2xpYnJhcnkvc3JjL2xpYi9zbmFjay1iYXIvc25hY2stYmFyLmNvbXBvbmVudC5odG1sIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLE9BQU8sRUFBRSxTQUFTLEVBQUUsTUFBTSxlQUFlLENBQUM7Ozs7QUFPMUMsTUFBTSxPQUFPLGlCQUFpQjs7OEdBQWpCLGlCQUFpQjtrR0FBakIsaUJBQWlCLHFEQ1A5QixxR0FHQTsyRkRJYSxpQkFBaUI7a0JBTDdCLFNBQVM7K0JBQ0UsZUFBZSIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IENvbXBvbmVudCB9IGZyb20gJ0Bhbmd1bGFyL2NvcmUnO1xyXG5cclxuQENvbXBvbmVudCh7XHJcbiAgc2VsZWN0b3I6ICdsaWItc25hY2stYmFyJyxcclxuICB0ZW1wbGF0ZVVybDogJy4vc25hY2stYmFyLmNvbXBvbmVudC5odG1sJyxcclxuICBzdHlsZVVybHM6IFsnLi9zbmFjay1iYXIuY29tcG9uZW50LmNzcyddXHJcbn0pXHJcbmV4cG9ydCBjbGFzcyBTbmFja0JhckNvbXBvbmVudCB7XHJcblxyXG59XHJcbiIsIjxzcGFuIG1hdFNuYWNrQmFyQWN0aW9ucz5cclxuICA8YnV0dG9uIG1hdC1idXR0b24gbWF0U25hY2tCYXJBY3Rpb24+QXBwbGllZDwvYnV0dG9uPlxyXG48L3NwYW4+XHJcbiJdfQ==

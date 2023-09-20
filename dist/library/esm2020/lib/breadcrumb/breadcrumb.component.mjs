@@ -1,0 +1,18 @@
+import { Component, Input } from '@angular/core';
+import * as i0 from "@angular/core";
+import * as i1 from "@angular/material/toolbar";
+import * as i2 from "@angular/common";
+export class BreadcrumbComponent {
+    constructor() {
+        this.routes = [];
+    }
+}
+BreadcrumbComponent.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "15.2.9", ngImport: i0, type: BreadcrumbComponent, deps: [], target: i0.ɵɵFactoryTarget.Component });
+BreadcrumbComponent.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "14.0.0", version: "15.2.9", type: BreadcrumbComponent, selector: "lib-breadcrumb", inputs: { routes: "routes" }, ngImport: i0, template: "<!-- BREADCRUMB -->\r\n<mat-toolbar color=\"primary\" class=\"breadcrumb\">\r\n  <div class=\"container\">\r\n    <p class=\"breadcrumb__list\">\r\n      <span *ngFor=\"let item of routes\">\r\n        <span>{{ item }}</span>\r\n        <span> > </span>\r\n      </span>\r\n    </p>\r\n  </div>\r\n</mat-toolbar>\r\n<!-- BREADCRUMB -->\r\n", styles: [".breadcrumb{margin:10px 0;height:40px}.breadcrumb__list{margin:0}.breadcrumb__list span{font-size:16px}\n"], dependencies: [{ kind: "component", type: i1.MatToolbar, selector: "mat-toolbar", inputs: ["color"], exportAs: ["matToolbar"] }, { kind: "directive", type: i2.NgForOf, selector: "[ngFor][ngForOf]", inputs: ["ngForOf", "ngForTrackBy", "ngForTemplate"] }] });
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "15.2.9", ngImport: i0, type: BreadcrumbComponent, decorators: [{
+            type: Component,
+            args: [{ selector: 'lib-breadcrumb', template: "<!-- BREADCRUMB -->\r\n<mat-toolbar color=\"primary\" class=\"breadcrumb\">\r\n  <div class=\"container\">\r\n    <p class=\"breadcrumb__list\">\r\n      <span *ngFor=\"let item of routes\">\r\n        <span>{{ item }}</span>\r\n        <span> > </span>\r\n      </span>\r\n    </p>\r\n  </div>\r\n</mat-toolbar>\r\n<!-- BREADCRUMB -->\r\n", styles: [".breadcrumb{margin:10px 0;height:40px}.breadcrumb__list{margin:0}.breadcrumb__list span{font-size:16px}\n"] }]
+        }], propDecorators: { routes: [{
+                type: Input
+            }] } });
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYnJlYWRjcnVtYi5jb21wb25lbnQuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi8uLi8uLi9wcm9qZWN0cy9saWJyYXJ5L3NyYy9saWIvYnJlYWRjcnVtYi9icmVhZGNydW1iLmNvbXBvbmVudC50cyIsIi4uLy4uLy4uLy4uLy4uL3Byb2plY3RzL2xpYnJhcnkvc3JjL2xpYi9icmVhZGNydW1iL2JyZWFkY3J1bWIuY29tcG9uZW50Lmh0bWwiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsT0FBTyxFQUFFLFNBQVMsRUFBRSxLQUFLLEVBQUUsTUFBTSxlQUFlLENBQUM7Ozs7QUFPakQsTUFBTSxPQUFPLG1CQUFtQjtJQUxoQztRQU1XLFdBQU0sR0FBYSxFQUFFLENBQUM7S0FDaEM7O2dIQUZZLG1CQUFtQjtvR0FBbkIsbUJBQW1CLG9GQ1BoQyxxVkFZQTsyRkRMYSxtQkFBbUI7a0JBTC9CLFNBQVM7K0JBQ0UsZ0JBQWdCOzhCQUtqQixNQUFNO3NCQUFkLEtBQUsiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBDb21wb25lbnQsIElucHV0IH0gZnJvbSAnQGFuZ3VsYXIvY29yZSc7XHJcblxyXG5AQ29tcG9uZW50KHtcclxuICBzZWxlY3RvcjogJ2xpYi1icmVhZGNydW1iJyxcclxuICB0ZW1wbGF0ZVVybDogJy4vYnJlYWRjcnVtYi5jb21wb25lbnQuaHRtbCcsXHJcbiAgc3R5bGVVcmxzOiBbJy4vYnJlYWRjcnVtYi5jb21wb25lbnQuc2NzcyddLFxyXG59KVxyXG5leHBvcnQgY2xhc3MgQnJlYWRjcnVtYkNvbXBvbmVudCB7XHJcbiAgQElucHV0KCkgcm91dGVzOiBzdHJpbmdbXSA9IFtdO1xyXG59XHJcbiIsIjwhLS0gQlJFQURDUlVNQiAtLT5cclxuPG1hdC10b29sYmFyIGNvbG9yPVwicHJpbWFyeVwiIGNsYXNzPVwiYnJlYWRjcnVtYlwiPlxyXG4gIDxkaXYgY2xhc3M9XCJjb250YWluZXJcIj5cclxuICAgIDxwIGNsYXNzPVwiYnJlYWRjcnVtYl9fbGlzdFwiPlxyXG4gICAgICA8c3BhbiAqbmdGb3I9XCJsZXQgaXRlbSBvZiByb3V0ZXNcIj5cclxuICAgICAgICA8c3Bhbj57eyBpdGVtIH19PC9zcGFuPlxyXG4gICAgICAgIDxzcGFuPiA+IDwvc3Bhbj5cclxuICAgICAgPC9zcGFuPlxyXG4gICAgPC9wPlxyXG4gIDwvZGl2PlxyXG48L21hdC10b29sYmFyPlxyXG48IS0tIEJSRUFEQ1JVTUIgLS0+XHJcbiJdfQ==
